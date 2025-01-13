@@ -1,0 +1,31 @@
+body {
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--gray-dark);
+    background-color: #686868;
+}
+
+.container_search {
+        padding: 35px;
+        background-color: #ffffff;
+}
+
+.container_search h1 {
+    font-size: calc(var(--font-size-body, 18px) + 6px);
+    margin: 0 0 15px;
+    font-weight: 300;
+
+}
+
+
+.search-form input {
+    width: 50%;
+    padding: 0;
+    line-height: 40px;
+    height: 40px;
+    background: 0 0;
+    font-size: calc(var(--font-size-body, 18px) - 3px);
+    border: 0;    
+    border-bottom: 1px solid var(--gray-dark, #000);
+
+}
